@@ -65,6 +65,7 @@ const WbnPlayer = ({ match, history, location }) => {
     const currentVideoIndex = state.videos.findIndex(video => video.id === videoId);
 
     const nextVideo = currentVideoIndex === state.videos.length - 1 ? 0 : currentVideoIndex + 1;
+    console.log(state.videos[nextVideo].id);
     history.push({
       pathname: `${state.videos[nextVideo].id}`,
       autoplay: false,
