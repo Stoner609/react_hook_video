@@ -7,7 +7,7 @@ const StyledPlaylistHeader = styled.div`
   font-size: 1.6em;
   color: #fff;
   padding: 0 20px;
-  margin: 0 0 20px 0;
+  margin: 0 0 10px 0;
   min-height: 80px;
   display: -webkit-box;
   display: -ms-flexbox;

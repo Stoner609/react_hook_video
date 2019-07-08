@@ -48,6 +48,18 @@ const StyledPlaylistItem = styled.div`
     text-align: left;
     text-decoration: none;
     display: block;
+
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    /*! autoprefixer: off */
+    -webkit-box-orient: vertical;
+    -ms-box-orient: vertical;
+    -o-box-orient: vertical;
+    box-orient: vertical;
+    -moz-box-orient: vertical;
+    /* autoprefixer: on */
   }
 
   .wbn-player__video-time {
